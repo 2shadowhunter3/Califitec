@@ -37,7 +37,9 @@ class MainActivity : AppCompatActivity(), Validator.ValidationListener {
 
     override fun onValidationSucceeded() {
         //Aqui van acciones a tomar si la validación fue exitosa, por ejemplo navegacion a otro activity
-      TareaAutenticarAlumno(this,this).execute()
+      //un pqueño cambio
+        //dos cambios
+        TareaAutenticarAlumno(this,this).execute()
 
     }
 
